@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PluginBase.Standalone.Attributes
+namespace Kyvas.Dynamics.Attributes
 {
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = true)]
     public class StringValueAttribute : Attribute

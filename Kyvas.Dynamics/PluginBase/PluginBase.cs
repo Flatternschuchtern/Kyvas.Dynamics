@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Kyvas.Dynamics.Logic;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Extensions;
-using PluginBase.Standalone.Logic;
 
-namespace PluginBase.Standalone.PluginBase
+namespace Kyvas.Dynamics.PluginBase
 {
     public abstract class PluginBase : IPlugin
     {

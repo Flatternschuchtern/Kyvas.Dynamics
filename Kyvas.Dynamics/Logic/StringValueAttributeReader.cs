@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using System.Reflection;
-using PluginBase.Standalone.Attributes;
+using Kyvas.Dynamics.Attributes;
 
-namespace PluginBase.Standalone.Logic
+namespace Kyvas.Dynamics.Logic
 {
     public static class StringValueAttributeReader
     {

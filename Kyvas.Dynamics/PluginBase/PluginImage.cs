@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xrm.Sdk;
 
-namespace PluginBase.Standalone.PluginBase
+namespace Kyvas.Dynamics.PluginBase
 {
     public abstract class PluginImage
     {

@@ -1,8 +1,8 @@
-# PluginBase.Standalone
-Quality of life update for Dynamics 365 plugin creation.
+# Kyvas.Dynamics
+Quality of life update for Dynamics 365 plugin creation based on reflection.
 # Features
 - Automatically retrieve frequently required services;
-- Automatically retrieve, map & set input and output parameters using reflection;
+- Automatically retrieve, map & set input and output parameters;
 - Retrieve & map entity images;
 - Throw InvalidPluginExecution on error;
 - Code activity NOT supported.

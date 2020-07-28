@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net452;net462;net48</TargetFrameworks>
+    <PackageId>PluginBase.Standalone</PackageId>
+    <Authors>Kirill Vasko</Authors>
+    <Company>Kirill Vasko</Company>
+    <Product>PluginBase.Standalone</Product>
+    <Description>Quality of life update for Dynamics 365 plugin creation.</Description>
+    <RepositoryUrl>https://github.com/Flatternschuchtern/PluginBase.Standalone</RepositoryUrl>
+    <PackageLicenseExpression>WTFPL</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Flatternschuchtern/PluginBase.Standalone</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.0.7" />
+  </ItemGroup>
+
+</Project>
