@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PluginBase.Standalone.PluginBase.Attributes
+namespace PluginBase.Standalone.Attributes
 {
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = true)]
     public class StringValueAttribute : Attribute
