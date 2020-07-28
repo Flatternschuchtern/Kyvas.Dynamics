@@ -60,7 +60,7 @@ public class PluginExample : IPlugin
 ```
 Can be easily transformed into:
 ``` C#
-public class PostCreate : PluginBase
+public class PluginExample : PluginBase
     {
         public PluginInput<Entity> Target; // PluginInput generic field to get & map input parameters
         public PluginOutput<string> Response; // PluginOutput generic field to map & set output parameters
@@ -79,7 +79,7 @@ public class PostCreate : PluginBase
 ## Get & Map Entity Images
 Same goes for entity images. Transform this:
 ``` C#
-public class PostDelete: IPlugin
+public class PluginExample: IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {
@@ -95,7 +95,7 @@ public class PostDelete: IPlugin
 ```
 Into
 ``` C#
-public class PostCreate : PluginBase
+public class PluginExample : PluginBase
     {
         public PluginPreImage PreImage;
         public PluginPostImage PostImage;
@@ -115,7 +115,7 @@ Make your parameters and images public, otherwise they will not be available for
 ## Name Attribute
 If you have ugly or repeating image or parameter name, just attribute their declaration:
 ``` C#
-public class PostCreate : PluginBase
+public class PluginExample : PluginBase
     {
         // images with same name
         [StringValue("Image")] public PluginPreImage PreImage;
