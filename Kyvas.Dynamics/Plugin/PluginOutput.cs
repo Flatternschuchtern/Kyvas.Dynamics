@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Kyvas.Dynamics.PluginBase
+namespace Kyvas.Dynamics.Plugin
 {
     public class PluginOutput
     {

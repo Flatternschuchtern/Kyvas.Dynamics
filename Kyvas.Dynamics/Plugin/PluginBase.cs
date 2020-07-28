@@ -6,7 +6,7 @@ using Kyvas.Dynamics.Logic;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Extensions;
 
-namespace Kyvas.Dynamics.PluginBase
+namespace Kyvas.Dynamics.Plugin
 {
     public abstract class PluginBase : IPlugin
     {

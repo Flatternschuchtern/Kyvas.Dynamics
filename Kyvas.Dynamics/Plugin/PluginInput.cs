@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.Xrm.Sdk;
 
-namespace Kyvas.Dynamics.PluginBase
+namespace Kyvas.Dynamics.Plugin
 {
     public class PluginInput
     {

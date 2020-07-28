@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFrameworks>net452;net462;net48</TargetFrameworks>
-    <PackageId>PluginBase.Standalone</PackageId>
+    <PackageId>Kyvas.Dynamics</PackageId>
     <Authors>Kirill Vasko</Authors>
     <Company>Kirill Vasko</Company>
-    <Product>PluginBase.Standalone</Product>
+    <Product>Kyvas.Dynamics</Product>
     <Description>Quality of life update for Dynamics 365 plugin creation.</Description>
-    <RepositoryUrl>https://github.com/Flatternschuchtern/PluginBase.Standalone</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Flatternschuchtern/Kyvas.Dynamics</RepositoryUrl>
     <PackageLicenseExpression>WTFPL</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/Flatternschuchtern/PluginBase.Standalone</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Flatternschuchtern/Kyvas.Dynamics</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
