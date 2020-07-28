@@ -6,6 +6,10 @@ Quality of life update for Dynamics 365 plugin creation based on reflection.
 - Retrieve & map entity images;
 - Throw InvalidPluginExecution on error;
 - Code activity NOT supported.
+# Installation
+Download and reference this project manually OR download it using NuGet:
+
+```PM> Install-Package Kyvas.Dynamics -Version 1.0.0```
 # Usage
 ## Implementation
 Just inherit abstract class PluginBase instead of IPlugin, and implement abstract ExecuteBody() method:
