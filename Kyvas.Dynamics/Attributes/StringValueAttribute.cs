@@ -2,7 +2,7 @@
 
 namespace Kyvas.Dynamics.Attributes
 {
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = true)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class StringValueAttribute : Attribute
     {
         public StringValueAttribute(string value)

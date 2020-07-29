@@ -45,7 +45,7 @@ public class PluginExample : IPlugin
             var factory = serviceProvider.Get<IOrganizationServiceFactory>();
             var service = factory.CreateOrganizationService(context.UserId);
             
-            // check if input exists and if it of desired type
+            // check if input exists and if it is of desired type
             if (!context.InputParameters.TryGetValue("Target", out var targetObj) || !(targetObj is Entity target))
                 throw new InvalidPluginExecutionException(nameof(target) + " is missing.");
             
